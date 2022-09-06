@@ -19,6 +19,24 @@
       "problemMatcher": ["$gcc"],
       "group": "build",
       "detail": "compiler: C:\\Users\\chavm\\winlibs\\winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2\\mingw64\\bin\\clang.exe"
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: GCC Build active file",
+      "command": "C:\\Users\\chavm\\winlibs\\winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2\\mingw64\\bin\\gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "compiler: C:\\Users\\chavm\\winlibs\\winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2\\mingw64\\bin\\gcc.exe"
     }
   ]
 }
