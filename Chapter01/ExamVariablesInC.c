@@ -16,7 +16,7 @@ int main()
     float gpa = 2.05;    // floating point number
     char grade = 'C';    // single character
     char name[] = "Bro"; // array of characters
-
+    printf("\n\n");
     printf("===================  ");
     printf("You are %d years old", age);
     printf("  ===================\n");
@@ -24,7 +24,9 @@ int main()
     printf("x = %d\n", x);
     printf("y = %d\n", y);
     printf("age = %d\n", age);
-    printf("\n ========  ======= \n");
+    printf("gpa = %f\n", gpa);
+    printf("grade = %c\n", grade);
+    printf("\n ============================================================= \n");
 
     return 0;
 }
