@@ -9,5 +9,9 @@ int main()
 
     printf("res = %d\n", res);
 
+    res = multy(3, 4);
+
+    printf("res = %d\n", res);
+
     return 0;
 }
