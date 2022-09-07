@@ -12,11 +12,19 @@ int main()
     x = 123;     // initialization
     int y = 321; // declaration + initialization
 
-    int age = 21; // integer
+    int age = 21;        // integer
+    float gpa = 2.05;    // floating point number
+    char grade = 'C';    // single character
+    char name[] = "Bro"; // array of characters
+
+    printf("===================  ");
+    printf("You are %d years old", age);
+    printf("  ===================\n");
 
     printf("x = %d\n", x);
     printf("y = %d\n", y);
     printf("age = %d\n", age);
+    printf("\n ========  ======= \n");
 
     return 0;
 }
